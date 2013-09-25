@@ -1,4 +1,5 @@
 library ex3;
+
 part 'calcul.dart';
 
 ex2_1(int width, int height) {
@@ -10,7 +11,6 @@ ex2_1(int width, int height) {
 }
 
 ex2_2(double dist, double s) {
-  
   double speedCalcul = speed(dist,s);
   print('2.2');
   print('distance in m: ${dist}');
